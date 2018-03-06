@@ -17,7 +17,7 @@ if(empty($message['name'])) {
 }
 
 //Sanitize phone field
-$message['phone'] = filter_var($_POST['phone'], FILTER_VALIDATE_REGEXP, ['options' => ['regexp' => '/(\(?[0-9]){3}\)?(-*|\ *)([0-9]){3}(-*|\ *)([0-9]){4}/']]);
+// $message['phone'] = filter_var($_POST['phone'], FILTER_VALIDATE_REGEXP, ['options' => ['regexp' => '/(\(?[0-9]){3}\)?(-*|\ *)([0-9]){3}(-*|\ *)([0-9]){4}/']]);
 // if(empty($message['phone'])) {
 //     $output['success'] = false;
 //     $output['messages'][] = 'invalid phone key';
@@ -79,7 +79,7 @@ $mail->isHTML(true);                                  // Set email format to HTM
 $message['subject'] = "{$message['name']} has sent you a message from your portfolio.";
 $mail->Subject = $message['subject'];
 $message['message'] = nl2br($message['message']); //conver newline characters to line break html tags
-$mail->Body = "Phone number: {$message['phone']},  Message: {$message['message']}";
+$mail->Body = "Message received: {$message['message']}";
 $mail->AltBody = htmlentities($message['message']);
 
 //Attempt email send, output result to client
