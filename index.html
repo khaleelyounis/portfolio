@@ -29,7 +29,8 @@
 
   <!-- Custom styles for this theme -->
   <!-- Uncomment the color scheme you want to use! Red is chosen by default! -->
-  <link href="css/vitality-red.css" rel="stylesheet" type="text/css">
+  <!-- <link href="css/vitality-red.css" rel="stylesheet" type="text/css"> -->
+  <link href="css/vitality-white.css" rel="stylesheet" type="text/css">
   <!-- <link href="css/vitality-aqua.css" rel="stylesheet" type="text/css"> -->
   <!-- <link href="css/vitality-blue.css" rel="stylesheet" type="text/css"> -->
   <!-- <link href="css/vitality-green.css" rel="stylesheet" type="text/css"> -->
@@ -39,6 +40,9 @@
   <!-- <link href="css/vitality-tan.css" rel="stylesheet" type="text/css"> -->
   <!-- <link href="css/vitality-turquoise.css" rel="stylesheet" type="text/css"> -->
   <!-- <link href="css/vitality-yellow.css" rel="stylesheet" type="text/css"> -->
+
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
 
 </head>
 
@@ -64,7 +68,7 @@
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#work">Work</a>
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -82,6 +86,28 @@
           <div class="masthead-title">Khaleel Younis</div>
           <hr class="colored">
           <div class="masthead-subtitle">Professional Web Developer</div>
+          <ul class="list-inline mt-5">
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.linkedin.com/in/khaleel-younis-03a1b111a/">
+                <i class="fa fa-linkedin fa-fw fa-3x"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.github.com/stallenvp">
+                <i class="fa fa-github fa-fw fa-3x"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="./docs/Khaleelyounis.pdf">
+                <i class="fa fa-file-text-o fa-fw fa-3x"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="mailto:khaleelyounis.dev@gmail.com">
+                <i class="fa fa-envelope fa-fw fa-3x"></i>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -97,7 +123,7 @@
     <div class="container wow fadeIn">
       <div class="row">
         <div class="col-lg-6">
-          <img class="img-fluid rounded my-5" src="img/creative/about.jpg" alt="">
+          <img class="img-fluid rounded mb-5" src="img/creative/about.jpg" alt="">
         </div>
         <div class="col-lg-6 text-center my-auto">
           <h1>Hi, there!</h1>
@@ -112,46 +138,42 @@
     </div>
   </section>
 
-  <!-- Call to Action -->
-  <section class="call-to-action" style="background-image: url('img/creative/backgrounds/bg-quote.jpg');">
-    <div class="container wow fadeIn">
-      <div class="row">
-        <div class="col-md-10 mx-auto">
-          <span class="quote">
-            <span class="text-primary">Happiness</span>
-            is only
-            <span class="text-primary">one</span> step away. So what are
-            <span class="text-primary">you</span>
-            <span class="text-primary">waiting</span> for?</span>
-          <hr class="colored">
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- Skills Section -->
   <section class="page-section services" id="skills">
     <div class="container">
       <div class="text-center wow fadeIn">
         <h2>My Skills</h2>
         <hr class="colored">
-        <p class="mb-0">Here is an overview of what you can expect from me.</p>
+        <p class="mb-0">Here are a few technologies you can expect from me, with more to come!</p>
       </div>
       <div class="row mt-4">
         <!-- Skills Item 1 -->
         <div class="col-lg-4 wow fadeIn" data-wow-delay=".2s">
           <div class="media">
             <div class="pull-left">
-              <i class="fa fa-clipboard rounded-circle"></i>
+              <i class="fa fa-camera rounded-circle"></i>
             </div>
             <div class="media-body">
               <h3 class="media-heading">Front-end</h3>
-              <ul>
-                <li>Javascript</li>
-                <li>jQuery</li>
-                <li>HTLM5</li>
-                <li>CSS3</li>
-                <li>ReactJS, and more.</li>
+              <ul style="list-style-type: none">
+                <li class="mx-5 my-0">
+                  <i class="devicon-javascript-plain colored" style="font-size: 2.5em"></i>
+                </li>
+                <li class="mx-5 my-0">
+                  <i class="devicon-jquery-plain-wordmark colored" style="font-size: 2.5em"></i>
+                </li>
+                <li class="mx-5 my-0">
+                  <i class="devicon-html5-plain-wordmark colored" style="font-size: 2.5em"></i>
+                </li>
+                <li class="mx-5 my-0">
+                  <i class="devicon-css3-plain-wordmark colored" style="font-size: 2.5em"></i>
+                </li>
+                <li class="mx-5 my-0">
+                  <i class="devicon-react-original-wordmark colored" style="font-size: 2.5em"></i>
+                </li>
+                <li class="mx-5 my-0">
+                  <i class="devicon-bootstrap-plain-wordmark colored" style="font-size: 2.5em"></i>
+                </li>
               </ul>
             </div>
           </div>
@@ -160,15 +182,41 @@
         <div class="col-lg-4 wow fadeIn" data-wow-delay=".4s">
           <div class="media">
             <div class="pull-left">
-              <i class="fa fa-pencil rounded-circle"></i>
+              <i class="fa fa-cogs rounded-circle"></i>
             </div>
             <div class="media-body">
               <h3 class="media-heading">Back-end</h3>
-              <ul>
-                <li>MySQL</li>
-                <li>NodeJS</li>
-                <li>mongoDB</li>
-                <li>PHP</li>
+              <ul style="list-style-type: none">
+                <li class="mx-5 my-0">
+                  <i class="devicon-nodejs-plain colored" style="font-size: 2.5em"></i>
+                </li>
+                <li class="mx-5 my-0">
+                  <i class="devicon-express-original colored" style="font-size: 2.5em"></i>
+                </li>
+                <li class="mx-5 my-0">
+                  <i class="devicon-mongodb-plain-wordmark colored" style="font-size: 3.5em"></i>
+                </li>
+                <li class="mx-5 my-0">
+                  <i class="devicon-amazonwebservices-plain-wordmark colored" style="font-size: 2.5em"></i>
+                </li>
+                <li class="mx-5 my-0">
+                  <i class="devicon-ubuntu-plain-wordmark colored" style="font-size: 2.5em"></i>
+                </li>
+                <li class="mx-5 my-0">
+                  <i class="devicon-linux-plain colored" style="font-size: 2.5em"></i>
+                </li>
+                <li class="mx-5 my-0">
+                  <i class="devicon-apache-line-wordmark colored" style="font-size: 2.5em"></i>
+                </li>
+                <li class="mx-5 my-0">
+                  <i class="devicon-php-plain colored" style="font-size: 2.5em"></i>
+                </li>
+                <li class="mx-5 my-0">
+                  <i class="devicon-mysql-plain-wordmark colored" style="font-size: 2.5em"></i>
+                </li>
+                <li class="mx-5 my-0">
+                  <i class="devicon-heroku-original colored" style="font-size: 2.5em"></i>
+                </li>
               </ul>
             </div>
           </div>
@@ -181,12 +229,25 @@
             </div>
             <div class="media-body">
               <h3 class="media-heading">Utilities</h3>
-              <ul>
-                <li>Git / Github</li>
-                <li>Chrome Dev Tools</li>
-                <li>Postman</li>
-                <li>VS Code</li>
-                <li>Agile Methodology</li>
+              <ul style="list-style-type: none">
+                <li class="mx-5 my-0">
+                  <i class="devicon-github-plain-wordmark" style="font-size: 2.5em"></i>
+                </li>
+                <li class="mx-5 my-0">
+                  <i class="devicon-git-plain-wordmark colored" style="font-size: 2.5em"></i>
+                </li>
+                <li class="mx-5 my-0">
+                  <i class="devicon-chrome-plain-wordmark colored" style="font-size: 2.5em"></i>
+                </li>
+                <li class="mx-5 my-0">
+                  <i class="devicon-visualstudio-plain colored" style="font-size: 2.5em"></i>
+                </li>
+                <li class="mx-5 my-0">
+                  <i class="devicon-phpstorm-plain-wordmark colored" style="font-size: 2.5em"></i>
+                </li>
+                <li class="mx-5 my-0">
+                  <i class="devicon-slack-plain" style="font-size: 2.5em"></i>
+                </li>
               </ul>
             </div>
           </div>
@@ -195,271 +256,80 @@
     </div>
   </section>
 
-  <!-- Portfolio Carousel Heading -->
-  <section class="page-section bg-light" id="work">
-    <div class="container text-center wow fadeIn">
-      <h2>Featured Projects</h2>
-      <hr class="colored">
-    </div>
-  </section>
-
-  <!-- Portfolio Carousel -->
-  <div class="portfolio-carousel wow fadeIn owl-carousel owl-theme">
-
-    <!-- Portfolio Carousel Item 1 -->
-    <div class="item" style="background-image: url('img/agency/portfolio/carousel/bg-1.jpg')">
-      <div class="container-fluid">
-        <div class="row h-100">
-          <div class="col-md-7 my-auto d-none d-sm-block">
-            <div class="device-container">
-              <div class="device-mockup macbook portrait black">
-                <div class="device">
-                  <div class="screen">
-                    <img class="img-fluid" src="img/agency/portfolio/carousel/screen-1a.jpg" alt="">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-5 my-auto">
-            <div class="project-details">
-              <span class="project-name">Project Name</span>
-              <span class="project-description">Branding, Website Design</span>
-              <hr class="colored">
-              <a href="#portfolioModal1" data-toggle="modal" class="btn btn-primary">View Details
-                <i class="fa fa-long-arrow-right fa-fw"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Carousel Item 2 -->
-    <div class="item" style="background-image: url('img/agency/portfolio/carousel/bg-2.jpg')">
-      <div class="container-fluid">
-        <div class="row h-100">
-          <div class="col-md-7 my-auto d-none d-sm-block">
-            <div class="device-container">
-              <div class="device-mockup macbook portrait black">
-                <div class="device">
-                  <div class="screen">
-                    <img class="img-fluid" src="img/agency/portfolio/carousel/screen-2a.jpg" alt="">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-5 my-auto">
-            <div class="project-details">
-              <span class="project-name">Project Name</span>
-              <span class="project-description">Branding, Website Design</span>
-              <hr class="colored">
-              <a href="#portfolioModal2" data-toggle="modal" class="btn btn-primary">View Details
-                <i class="fa fa-long-arrow-right fa-fw"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Carousel Item 3 -->
-    <div class="item" style="background-image: url('img/agency/portfolio/carousel/bg-3.jpg')">
-      <div class="container-fluid">
-        <div class="row h-100">
-          <div class="col-md-7 my-auto d-none d-sm-block">
-            <div class="device-container">
-              <div class="device-mockup macbook portrait black">
-                <div class="device">
-                  <div class="screen">
-                    <img class="img-fluid" src="img/agency/portfolio/carousel/screen-3a.jpg" alt="">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-5 my-auto">
-            <div class="project-details">
-              <span class="project-name">Project Name</span>
-              <span class="project-description">Branding, Website Design</span>
-              <hr class="colored">
-              <a href="#portfolioModal3" data-toggle="modal" class="btn btn-primary">View Details
-                <i class="fa fa-long-arrow-right fa-fw"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Carousel Item 4 -->
-    <div class="item" style="background-image: url('img/agency/portfolio/carousel/bg-4.jpg')">
-      <div class="container-fluid">
-        <div class="row h-100">
-          <div class="col-md-7 my-auto d-none d-sm-block">
-            <div class="device-container">
-              <div class="device-mockup macbook portrait black">
-                <div class="device">
-                  <div class="screen">
-                    <img class="img-fluid" src="img/agency/portfolio/carousel/screen-4.jpg" alt="">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-5 my-auto">
-            <div class="project-details">
-              <span class="project-name">Project Name</span>
-              <span class="project-description">Branding, Website Design</span>
-              <hr class="colored">
-              <a href="#portfolioModal4" data-toggle="modal" class="btn btn-primary">View Details
-                <i class="fa fa-long-arrow-right fa-fw"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
   <!-- Portfolio Grid Section -->
-  <section class="page-section">
-    <div class="container text-center wow fadeIn">
+  <section class="page-section" id="portfolio">
+    <div class="container text-center wow fadeIn ">
       <h2>Portfolio</h2>
-      <hr class="colored">
-      <p>Here are some other projects that I've worked on.</p>
-      <div class="controls mt-3">
-        <button type="button" class="control btn btn-secondary btn-sm mx-2 mb-4" data-mixitup-control data-filter="all">All</button>
-        <button type="button" class="control btn btn-secondary btn-sm mx-2 mb-4" data-mixitup-control data-filter=".identity">Identity</button>
-        <button type="button" class="control btn btn-secondary btn-sm mx-2 mb-4" data-mixitup-control data-filter=".graphic">Graphic</button>
-        <button type="button" class="control btn btn-secondary btn-sm mx-2 mb-4" data-mixitup-control data-filter=".web">Web</button>
-      </div>
-      <div class="portfolio-grid clearfix" id="portfolioList">
+      <hr class="colored ">
+      <p>Take a look at a few of my applications.</p>
+      <div class="portfolio-grid clearfix " id="portfolioList ">
 
         <!-- Grid Item 1 -->
-        <div class="mix identity" href="img/agency/portfolio/grid/grid-1.jpg" title="Client Name">
-          <div class="portfolio-wrapper">
-            <img src="img/agency/portfolio/grid/grid-1.jpg" alt="">
-            <div class="caption">
-              <div class="caption-text">
-                <a class="text-title">Client Name</a>
-                <span class="text-category">Brand Identity</span>
+        <div class="mix identity " href="img/agency/portfolio/grid/grid-1.jpg " title="Client Name ">
+          <div class="portfolio-wrapper ">
+            <img src="img/agency/portfolio/grid/grid-1.jpg " alt=" ">
+            <div class="caption ">
+              <div class="caption-text ">
+                <a class="text-title " href="https://livefaceoff.com">Live</a>
+                <a class="text-category " href="https://www.github.com/stallenvp/c12.17_familygame">Github</a>
               </div>
-              <div class="caption-bg"></div>
+              <div class="caption-bg "></div>
             </div>
           </div>
         </div>
 
         <!-- Grid Item 2 -->
-        <div class="mix web" href="img/agency/portfolio/grid/grid-2.jpg" title="Client Name">
-          <div class="portfolio-wrapper">
-            <img src="img/agency/portfolio/grid/grid-2.jpg" alt="">
-            <div class="caption">
-              <div class="caption-text">
-                <a class="text-title">Client Name</a>
-                <span class="text-category">Web Development</span>
+        <div class="mix web " href="img/agency/portfolio/grid/grid-2.jpg " title="Client Name ">
+          <div class="portfolio-wrapper ">
+            <img src="img/agency/portfolio/grid/grid-2.jpg " alt=" ">
+            <div class="caption ">
+              <div class="caption-text ">
+                <a class="text-title ">Client Name</a>
+                <span class="text-category ">Web Development</span>
               </div>
-              <div class="caption-bg"></div>
+              <div class="caption-bg "></div>
             </div>
           </div>
         </div>
 
         <!-- Grid Item 3 -->
-        <div class="mix web" href="img/agency/portfolio/grid/grid-3.jpg" title="Client Name">
-          <div class="portfolio-wrapper">
-            <img src="img/agency/portfolio/grid/grid-3.jpg" alt="">
-            <div class="caption">
-              <div class="caption-text">
-                <a class="text-title">Client Name</a>
-                <span class="text-category">Web Development</span>
+        <div class="mix web " href="img/agency/portfolio/grid/grid-3.jpg " title="Client Name ">
+          <div class="portfolio-wrapper ">
+            <img src="img/agency/portfolio/grid/grid-3.jpg " alt=" ">
+            <div class="caption ">
+              <div class="caption-text ">
+                <a class="text-title ">Client Name</a>
+                <span class="text-category ">Web Development</span>
               </div>
-              <div class="caption-bg"></div>
+              <div class="caption-bg "></div>
             </div>
           </div>
         </div>
 
         <!-- Grid Item 4 -->
-        <div class="mix identity" href="img/agency/portfolio/grid/grid-4.jpg" title="Client Name">
-          <div class="portfolio-wrapper">
-            <img src="img/agency/portfolio/grid/grid-4.jpg" alt="">
-            <div class="caption">
-              <div class="caption-text">
-                <a class="text-title">Client Name</a>
-                <span class="text-category">Brand Identity</span>
+        <div class="mix identity " href="img/agency/portfolio/grid/grid-4.jpg " title="Client Name ">
+          <div class="portfolio-wrapper ">
+            <img src="img/agency/portfolio/grid/grid-4.jpg " alt=" ">
+            <div class="caption ">
+              <div class="caption-text ">
+                <a class="text-title ">Client Name</a>
+                <span class="text-category ">Brand Identity</span>
               </div>
-              <div class="caption-bg"></div>
+              <div class="caption-bg "></div>
             </div>
           </div>
         </div>
 
         <!-- Grid Item 5 -->
-        <div class="mix web" href="img/agency/portfolio/grid/grid-5.jpg" title="Client Name">
-          <div class="portfolio-wrapper">
-            <img src="img/agency/portfolio/grid/grid-5.jpg" alt="">
-            <div class="caption">
-              <div class="caption-text">
-                <a class="text-title">Client Name</a>
-                <span class="text-category">Web Development</span>
+        <div class="mix web " href="img/agency/portfolio/grid/grid-5.jpg " title="Client Name ">
+          <div class="portfolio-wrapper ">
+            <img src="img/agency/portfolio/grid/grid-5.jpg " alt=" ">
+            <div class="caption ">
+              <div class="caption-text ">
+                <a class="text-title ">Client Name</a>
+                <span class="text-category ">Web Development</span>
               </div>
-              <div class="caption-bg"></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Grid Item 6 -->
-        <div class="mix graphic" href="img/agency/portfolio/grid/grid-6.jpg" title="Client Name">
-          <div class="portfolio-wrapper">
-            <img src="img/agency/portfolio/grid/grid-6.jpg" alt="">
-            <div class="caption">
-              <div class="caption-text">
-                <a class="text-title">Client Name</a>
-                <span class="text-category">Graphic Design</span>
-              </div>
-              <div class="caption-bg"></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Grid Item 7 -->
-        <div class="mix graphic" href="img/agency/portfolio/grid/grid-7.jpg" title="Client Name">
-          <div class="portfolio-wrapper">
-            <img src="img/agency/portfolio/grid/grid-7.jpg" alt="">
-            <div class="caption">
-              <div class="caption-text">
-                <a class="text-title">Client Name</a>
-                <span class="text-category">Graphic Design</span>
-              </div>
-              <div class="caption-bg"></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Grid Item 8 -->
-        <div class="mix web" href="img/agency/portfolio/grid/grid-8.jpg" title="Client Name">
-          <div class="portfolio-wrapper">
-            <img src="img/agency/portfolio/grid/grid-8.jpg" alt="">
-            <div class="caption">
-              <div class="caption-text">
-                <a class="text-title">Client Name</a>
-                <span class="text-category">Web Development</span>
-              </div>
-              <div class="caption-bg"></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Grid Item 9 -->
-        <div class="mix identity" href="img/agency/portfolio/grid/grid-9.jpg" title="Client Name">
-          <div class="portfolio-wrapper">
-            <img src="img/agency/portfolio/grid/grid-9.jpg" alt="">
-            <div class="caption">
-              <div class="caption-text">
-                <a class="text-title">Client Name</a>
-                <span class="text-category">Brand Identity</span>
-              </div>
-              <div class="caption-bg"></div>
+              <div class="caption-bg "></div>
             </div>
           </div>
         </div>
@@ -469,48 +339,44 @@
   </section>
 
   <!-- Contact Section -->
-  <section class="page-section" id="contact">
-    <div class="container wow fadeIn">
-      <div class="text-center">
+  <section class="page-section " id="contact">
+    <div class="container wow fadeIn ">
+      <div class="text-center ">
         <h2>Shoot me a Message</h2>
-        <hr class="colored">
+        <hr class="colored ">
       </div>
-      <div class="row mt-4">
-        <div class="col-lg-8 mx-auto">
-          <form name="sentMessage" id="contactForm" novalidate>
-            <div class="row control-group">
-              <div class="form-group col-12 floating-label-form-group controls">
+      <div class="row mt-4 ">
+        <div class="col-lg-8 mx-auto ">
+          <form name="sentMessage " id="contactForm " novalidate>
+            <div class="row control-group ">
+              <div class="form-group col-12 floating-label-form-group controls ">
                 <label>Name</label>
-                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
-                <p class="help-block text-danger"></p>
+                <input type="text " class="form-control " placeholder="Name " id="name
+            " required data-validation-required-message="Please enter your name. ">
+                <p class="help-block text-danger "></p>
               </div>
             </div>
-            <div class="row control-group">
-              <div class="form-group col-12 floating-label-form-group controls">
+            <div class="row control-group ">
+              <div class="form-group col-12 floating-label-form-group controls ">
                 <label>Email Address</label>
-                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
-                <p class="help-block text-danger"></p>
+                <input type="email " class="form-control " placeholder="Email Address " id="email
+            " required data-validation-required-message="Please enter your email address. ">
+                <p class="help-block text-danger "></p>
               </div>
             </div>
-            <div class="row control-group">
-              <div class="form-group col-12 floating-label-form-group controls">
-                <label>Phone Number</label>
-                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="row control-group">
-              <div class="form-group col-12 floating-label-form-group controls">
+            <div class="row control-group ">
+              <div class="form-group col-12 floating-label-form-group controls ">
                 <label>Message</label>
-                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                <p class="help-block text-danger"></p>
+                <textarea rows="2 " class="form-control " placeholder="Message " id="message
+            " required data-validation-required-message="Please enter a message. "></textarea>
+                <p class="help-block text-danger "></p>
               </div>
             </div>
             <br>
-            <div id="success"></div>
-            <div class="row">
-              <div class="form-group col-12">
-                <button type="submit" class="btn btn-secondary">Send</button>
+            <div id="success "></div>
+            <div class="row ">
+              <div class="form-group col-12 ">
+                <button type="submit " class="btn btn-secondary ">Send</button>
               </div>
             </div>
           </form>
@@ -520,339 +386,55 @@
   </section>
 
   <!-- Footer -->
-  <footer class="footer" style="background-image: url('img/agency/backgrounds/bg-footer.jpg')">
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-md-4 footer-contact-details">
+  <footer class="footer " style="background-image: url( 'img/creative/backgrounds/portfoliofooter.jpg') ">
+    <div class="container text-center ">
+      <div class="row ">
+        <div class="col-md-4 footer-contact-details ">
           <h4>
-            <i class="fa fa-phone"></i>
+            <i class="fa fa-phone "></i>
             Call</h4>
-          <p>(949)678-9636</p>
+          <a href="tel:949-407-9945 ">
+            <p>(949)407-9945</p>
+          </a>
         </div>
-        <div class="col-md-4 footer-contact-details">
+        <div class="col-md-4 footer-contact-details ">
           <h4>
-            <i class="fa fa-map-marker"></i>
+            <i class="fa fa-map-marker "></i>
             Location</h4>
           <p>Villa Park, CA</p>
         </div>
-        <div class="col-md-4 footer-contact-details">
+        <div class="col-md-4 footer-contact-details ">
           <h4>
-            <i class="fa fa-envelope"></i>
+            <i class="fa fa-envelope "></i>
             Email</h4>
           <p>
-            <a href="mailto:khaleelyounis1@gmail.com">Khaleelyounis1@gmail.com</a>
+            <a href="mailto:khaleelyounis.dev@gmail.com ">Khaleelyounis.dev@gmail.com</a>
           </p>
-        </div>
-      </div>
-      <div class="row footer-social">
-        <div class="col-lg-12">
-          <ul class="list-inline">
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fa fa-facebook fa-fw fa-2x"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fa fa-twitter fa-fw fa-2x"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fa fa-linkedin fa-fw fa-2x"></i>
-              </a>
-            </li>
-          </ul>
         </div>
       </div>
     </div>
   </footer>
 
-  <!-- Portfolio Modals -->
-  <!-- Example Modal 1: Corresponds with Portfolio Carousel Item 1 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('img/agency/portfolio/carousel/bg-1.jpg')">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="modal-body">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <h2>Project Name</h2>
-                <hr class="colored">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos modi in tenetur vero voluptatum sapiente dolores
-                  eligendi nemo iste ea. Omnis, odio enim sint quam dolorum dolorem. Nostrum, minus, ad.</p>
-              </div>
-              <div class="col-lg-8 mx-auto">
-                <div class="device-mockup macbook portrait black">
-                  <div class="device">
-                    <div class="screen">
-
-                      <!-- Modal Mockup Option 1: Single Image (Uncomment Below to Use) -->
-                      <!-- <img src="img/agency/portfolio/carousel/screen-1a.jpg" class="img-fluid" alt=""> -->
-
-                      <!-- Modal Mockup Option 2: Carousel (Example In Use Below) -->
-                      <div class="mockup-carousel">
-                        <div class="item">
-                          <img src="img/agency/portfolio/carousel/screen-1a.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="item">
-                          <img src="img/agency/portfolio/carousel/screen-1b.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="item">
-                          <img src="img/agency/portfolio/carousel/screen-1c.jpg" class="img-fluid" alt="">
-                        </div>
-                      </div>
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-8 mx-auto">
-                <ul class="list-inline item-details">
-                  <li>Client:
-                    <strong>Start Bootstrap</strong>
-                  </li>
-                  <li>Date:
-                    <strong>April 2015</strong>
-                  </li>
-                  <li>Service:
-                    <strong>Web Development</strong>
-                  </li>
-                </ul>
-                <button type="button" class="btn btn-primary" data-dismiss="modal">
-                  <i class="fa fa-times"></i>
-                  Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Example Modal 2: Corresponds with Portfolio Carousel Item 2 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('img/agency/portfolio/carousel/bg-2.jpg')">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="modal-body">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <h2>Project Name</h2>
-                <hr class="colored">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos modi in tenetur vero voluptatum sapiente dolores
-                  eligendi nemo iste ea. Omnis, odio enim sint quam dolorum dolorem. Nostrum, minus, ad.</p>
-              </div>
-              <div class="col-lg-8 mx-auto">
-                <div class="device-mockup macbook portrait black">
-                  <div class="device">
-                    <div class="screen">
-
-                      <!-- Modal Mockup Option 1: Single Image (Uncomment Below to Use) -->
-                      <!-- <img src="img/agency/portfolio/carousel/screen-2a.jpg" class="img-fluid" alt=""> -->
-
-                      <!-- Modal Mockup Option 2: Carousel (Example In Use Below) -->
-                      <div class="mockup-carousel">
-                        <div class="item">
-                          <img src="img/agency/portfolio/carousel/screen-2a.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="item">
-                          <img src="img/agency/portfolio/carousel/screen-2b.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="item">
-                          <img src="img/agency/portfolio/carousel/screen-2c.jpg" class="img-fluid" alt="">
-                        </div>
-                      </div>
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-8 mx-auto">
-                <ul class="list-inline item-details">
-                  <li>Client:
-                    <strong>Start Bootstrap</strong>
-                  </li>
-                  <li>Date:
-                    <strong>April 2015</strong>
-                  </li>
-                  <li>Service:
-                    <strong>Web Development</strong>
-                  </li>
-                </ul>
-                <button type="button" class="btn btn-primary" data-dismiss="modal">
-                  <i class="fa fa-times"></i>
-                  Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Example Modal 3: Corresponds with Portfolio Carousel Item 3 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('img/agency/portfolio/carousel/bg-3.jpg')">
-    <div class="modal-content">
-      <div class="modal-dialog">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="modal-body">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <h2>Project Name</h2>
-                <hr class="colored">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos modi in tenetur vero voluptatum sapiente dolores
-                  eligendi nemo iste ea. Omnis, odio enim sint quam dolorum dolorem. Nostrum, minus, ad.</p>
-              </div>
-              <div class="col-lg-8 mx-auto">
-                <div class="device-mockup macbook portrait black">
-                  <div class="device">
-                    <div class="screen">
-
-                      <!-- Modal Mockup Option 1: Single Image (Uncomment Below to Use) -->
-                      <!-- <img src="img/agency/portfolio/carousel/screen-3a.jpg" class="img-fluid" alt=""> -->
-
-                      <!-- Modal Mockup Option 2: Carousel (Example In Use Below) -->
-                      <div class="mockup-carousel">
-                        <div class="item">
-                          <img src="img/agency/portfolio/carousel/screen-3a.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="item">
-                          <img src="img/agency/portfolio/carousel/screen-3b.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="item">
-                          <img src="img/agency/portfolio/carousel/screen-3c.jpg" class="img-fluid" alt="">
-                        </div>
-                      </div>
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-8 mx-auto">
-                <ul class="list-inline item-details">
-                  <li>Client:
-                    <strong>Start Bootstrap</strong>
-                  </li>
-                  <li>Date:
-                    <strong>April 2015</strong>
-                  </li>
-                  <li>Service:
-                    <strong>Web Development</strong>
-                  </li>
-                </ul>
-                <button type="button" class="btn btn-primary" data-dismiss="modal">
-                  <i class="fa fa-times"></i>
-                  Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Example Modal 4: Corresponds with Portfolio Carousel Item 4 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('img/agency/portfolio/carousel/bg-4.jpg')">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="modal-body">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <h2>Project Name</h2>
-                <hr class="colored">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos modi in tenetur vero voluptatum sapiente dolores
-                  eligendi nemo iste ea. Omnis, odio enim sint quam dolorum dolorem. Nostrum, minus, ad.</p>
-              </div>
-              <div class="col-lg-8 mx-auto">
-                <div class="device-mockup macbook portrait black">
-                  <div class="device">
-                    <div class="screen">
-
-                      <!-- Modal Mockup Option 1: Single Image (Example In Use Below) -->
-                      <img src="img/agency/portfolio/carousel/screen-4.jpg" class="img-fluid" alt="">
-
-                      <!-- Modal Mockup Option 2: Carousel (Uncomment Below to Use) -->
-                      <!-- <div class="mockup-carousel">
-                          <div class="item">
-                            <img src="img/agency/portfolio/carousel/screen-1a.jpg" class="img-fluid" alt="">
-                          </div>
-                          <div class="item">
-                            <img src="img/agency/portfolio/carousel/screen-2a.jpg" class="img-fluid" alt="">
-                          </div>
-                          <div class="item">
-                            <img src="img/agency/portfolio/carousel/screen-3a.jpg" class="img-fluid" alt="">
-                          </div>
-                        </div> -->
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-8 mx-auto">
-                <ul class="list-inline item-details">
-                  <li>Client:
-                    <strong>Start Bootstrap</strong>
-                  </li>
-                  <li>Date:
-                    <strong>April 2015</strong>
-                  </li>
-                  <li>Service:
-                    <strong>Web Development</strong>
-                  </li>
-                </ul>
-                <button type="button" class="btn btn-primary" data-dismiss="modal">
-                  <i class="fa fa-times"></i>
-                  Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/popper/popper.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="vendor/jquery/jquery.min.js "></script>
+  <script src="vendor/popper/popper.min.js "></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js "></script>
 
   <!-- Plugin JavaScript -->
-  <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="vendor/owl-carousel/owl.carousel.js"></script>
-  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-  <script src="vendor/vide/jquery.vide.min.js"></script>
-  <script src="vendor/mixitup/mixitup.min.js"></script>
-  <script src="vendor/wowjs/wow.min.js"></script>
+  <script src="vendor/jquery.easing/jquery.easing.min.js "></script>
+  <script src="vendor/owl-carousel/owl.carousel.js "></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js "></script>
+  <script src="vendor/vide/jquery.vide.min.js "></script>
+  <script src="vendor/mixitup/mixitup.min.js "></script>
+  <script src="vendor/wowjs/wow.min.js "></script>
 
   <!-- Contact form JavaScript -->
-  <script src="js/contact_me.js"></script>
-  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js "></script>
+  <script src="js/jqBootstrapValidation.js "></script>
 
   <!-- Custom scripts for this theme -->
-  <script src="js/vitality.js"></script>
-  <script src="js/mixitup-config.js"></script>
+  <script src="js/vitality.js "></script>
+  <script src="js/mixitup-config.js "></script>
 
 </body>
 
