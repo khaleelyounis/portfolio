@@ -664,6 +664,10 @@
      margin-bottom: 75px; }
    footer.footer .copyright {
      font-size: 1rem; }
+
+  .form-control:focus {
+    background-color: #ededed;
+  }
  
  .btn {
    font-weight: 900;
