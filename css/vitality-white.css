@@ -497,7 +497,19 @@
    .portfolio-grid .mix {
      width: 31%;
      margin: 1%; } }
- 
+
+/* Portrait */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+  .portfolio-grid .mix {
+    width: 98%;
+  }
+  .aboutMePhoto {
+    margin-top: 0 !important;
+  }
+}
+
  .testimonials {
    text-align: center; }
    .testimonials .testimonials-carousel .item .testimonial-img {
