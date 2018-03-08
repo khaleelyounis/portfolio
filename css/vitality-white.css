@@ -29,7 +29,7 @@
  
  @media (max-width: 767px) {
    section.page-section {
-     padding: 75px 0; } }
+     padding: 50px 0; } }
  
  ::-webkit-input-placeholder {
    font-weight: 300;
@@ -508,6 +508,10 @@ and (max-device-width : 667px) {
   .aboutMePhoto {
     margin-top: 0 !important;
   }
+}
+
+div.wow.skillsSectionItem {
+  width: auto;
 }
 
  .testimonials {
