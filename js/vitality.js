@@ -35,6 +35,14 @@ $(document).ready(function () {
     $('.navbar-collapse').collapse('hide');
   });
 
+  //Close responsive menu when user scrolls away from navbar
+  $(window).scroll(function () {
+    if ($('.navbar-collapse').hasClass('show')) {
+      $('.navbar-collapse').collapse('hide');
+    }
+  })
+
+
   // Activate scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
     target: '#mainNav',
@@ -57,58 +65,6 @@ $(document).ready(function () {
     $(this).addClass("floating-label-form-group-with-focus");
   }).on("blur", ".floating-label-form-group", function () {
     $(this).removeClass("floating-label-form-group-with-focus");
-  });
-
-  // Owl Carousel Settings
-  $(".team-carousel").owlCarousel({
-    items: 3,
-    navigation: true,
-    pagination: false,
-    navigationText: [
-      "<i class='fa fa-angle-left'></i>",
-      "<i class='fa fa-angle-right'></i>"
-    ],
-  });
-
-  $(".portfolio-carousel").owlCarousel({
-    singleItem: true,
-    navigation: true,
-    pagination: false,
-    navigationText: [
-      "<i class='fa fa-angle-left'></i>",
-      "<i class='fa fa-angle-right'></i>"
-    ],
-    autoHeight: true,
-    mouseDrag: false,
-    touchDrag: false,
-    transitionStyle: "fadeUp"
-  });
-
-  $(".testimonials-carousel, .mockup-carousel").owlCarousel({
-    singleItem: true,
-    navigation: true,
-    pagination: true,
-    autoHeight: true,
-    navigationText: [
-      "<i class='fa fa-angle-left'></i>",
-      "<i class='fa fa-angle-right'></i>"
-    ],
-    transitionStyle: "backSlide"
-  });
-
-  $(".portfolio-gallery").owlCarousel({
-    items: 3,
-  });
-
-  // Magnific Popup jQuery Lightbox Gallery Settings
-  $('.gallery-link').magnificPopup({
-    type: 'image',
-    gallery: {
-      enabled: true
-    },
-    image: {
-      titleSrc: 'title'
-    }
   });
 
   // Magnific Popup Settings
