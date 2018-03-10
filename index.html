@@ -20,10 +20,11 @@
 
   <!-- Plugin CSS -->
   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+  <!-- <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css"> -->
   <link href="vendor/animate.css/animate.min.css" rel="stylesheet" type="text/css">
   <link href="css/vitality-white.css" rel="stylesheet" type="text/css">
 
+  <!-- DevIcon Script -->
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
 
@@ -224,15 +225,16 @@
       <h2>Portfolio</h2>
       <hr class="colored ">
       <p>Take a look at a few of my applications.</p>
+      <p>Currently under Construction!</p>
       <div class="portfolio-grid clearfix " id="portfolioList ">
 
         <!-- Grid Item 1 -->
         <div class="mix identity" href="img/creative/portfolio/grid/livefaceoff.png" title="Live Face Off">
-          <div class="portfolio-wrapper ">
+          <div class="portfolio-wrapper portfolio-div" data-title="liveFaceOff" id="liveFaceOff">
             <img src="img/creative/portfolio/grid/livefaceoff.png" alt=" ">
             <div class="caption ">
               <div class="caption-text ">
-                <h4 class="mt-2">Live Face Off</h4>
+                <h3 class="mt-2">Live Face Off</h3>
               </div>
               <div class="caption-bg "></div>
             </div>
@@ -241,11 +243,11 @@
 
         <!-- Grid Item 2 -->
         <div class="mix web " href="img/creative/portfolio/grid/hearthstone.png" title="Hearthstone Battle">
-          <div class="portfolio-wrapper ">
+          <div class="portfolio-wrapper portfolio-div" data-title="hearthstoneBattle" id="hearthstoneBattle">
             <img src="img/creative/portfolio/grid/hearthstone.png" alt=" ">
             <div class="caption ">
               <div class="caption-text ">
-                <h4 class="mt-2">Hearthstone Battle</h4>
+                <h3 class="mt-2">Hearthstone Battle</h3>
               </div>
               <div class="caption-bg "></div>
             </div>
@@ -254,11 +256,11 @@
 
         <!-- Grid Item 3 -->
         <div class="mix web " href="img/creative/portfolio/grid/beetsandeats.png" title="Beets & Eats">
-          <div class="portfolio-wrapper ">
+          <div class="portfolio-wrapper portfolio-div" data-title="beetsAndEats" id="beetsAndEats">
             <img src="img/creative/portfolio/grid/beetsandeats.png" alt=" ">
             <div class="caption ">
               <div class="caption-text ">
-                <h4 class="mt-2">Beets & Eats</h4>
+                <h3 class="mt-2">Beets and Eats</h3>
               </div>
               <div class="caption-bg "></div>
             </div>
@@ -293,6 +295,13 @@
                 <input type="email " class="form-control " placeholder="Email Address " id="email
             " required data-validation-required-message="Please enter your email address. ">
                 <p class="help-block text-danger "></p>
+              </div>
+            </div>
+            <div class="row control-group">
+              <div class="form-group col-12 floating-label-form-group controls">
+                <label>Phone Number</label>
+                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="row control-group ">
@@ -353,7 +362,7 @@
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery.easing/jquery.easing.min.js "></script>
-  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js "></script>
+  <!-- <script src="vendor/magnific-popup/jquery.magnific-popup.js "></script> -->
   <script src="vendor/vide/jquery.vide.min.js "></script>
   <script src="vendor/wowjs/wow.min.js "></script>
 
@@ -363,6 +372,27 @@
 
   <!-- Custom scripts for this theme -->
   <script src="js/vitality.js "></script>
+
+  <!-- Portfolio Modal template -->
+  <div class="modal fade" id="portfolioModal" role="dialog" style="padding: 0">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">X</button>
+        </div>
+        <div class="modal-body">
+          <img src="#" alt="Portfolio Image" class="modalImage">
+          <h2 class="modal-title my-2"></h2>
+          <h4 class="links mb-3">
+            <a href="#" target="_blank" class="live">Live</a>
+            <a href="#" target="_blank" class="github">| Github</a>
+          </h4>
+          <p class="description"></p>
+          <hr>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
 
