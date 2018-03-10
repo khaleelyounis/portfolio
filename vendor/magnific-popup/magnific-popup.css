@@ -277,6 +277,7 @@ img.mfp-img {
     margin: 0; }
 
 .mfp-bottom-bar {
+  margin-left: 20px;
   margin-top: -36px;
   position: absolute;
   top: 100%;
@@ -285,7 +286,7 @@ img.mfp-img {
   cursor: auto; }
 
 .mfp-title {
-  text-align: left;
+  text-align: center;
   line-height: 18px;
   color: #F3F3F3;
   word-wrap: break-word;
