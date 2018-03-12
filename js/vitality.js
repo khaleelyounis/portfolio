@@ -67,15 +67,6 @@ $(document).ready(function () {
     $(this).removeClass("floating-label-form-group-with-focus");
   });
 
-  // // Magnific Popup Settings
-  // $('.mix').magnificPopup({
-  //   type: 'image',
-  //   image: {
-  //     titleSrc: 'title'
-  //   }
-  // });
-
-
   //Modal information object
   var portfolioInfo = {
     liveFaceOff: {
