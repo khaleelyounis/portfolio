@@ -453,7 +453,6 @@
  .portfolio-grid .mix {
    float: left;
    overflow: hidden;
-   width: 48%;
    margin: 1%; }
    .portfolio-grid .mix .portfolio-wrapper {
      position: relative !important;
@@ -499,10 +498,18 @@
    .portfolio-grid .mix:hover .portfolio-wrapper .caption {
      bottom: 0; }
  
+@media (max-width: 767px) {
+  .portfolio-grid .mix {
+    margin: 1%; 
+  } 
+}
+
  @media (min-width: 768px) {
    .portfolio-grid .mix {
      width: 31%;
-     margin: 1%; } }
+     margin: 1%; 
+    } 
+  }
 
 /* Portrait */
 @media only screen 
@@ -513,6 +520,41 @@ and (max-device-width : 667px) {
   }
   .aboutMePhoto {
     margin-top: 0 !important;
+  }
+  .skillsSectionItem {
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .skillsSectionItem {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 407px) {
+  .skillsSectionItem {
+    margin-left: 4%;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+  .skillsSectionItem {
+    margin-left: 10%;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 599px) {
+  .skillsSectionItem {
+    margin-left: 16%;
+  }
+}
+
+@media only screen 
+and (min-width: 600px) 
+and (max-width: 768px) {
+  .skillsSectionItem {
+    margin-left: 19%;
   }
 }
 

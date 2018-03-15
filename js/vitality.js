@@ -77,7 +77,7 @@ $(document).ready(function () {
     },
     hearthstoneBattle: {
       title: 'Hearthstone Battle',
-      image: 'img/creative/portfolio/grid/hearthstone.png',
+      image: 'img/creative/portfolio/grid/hearthstone.jpg',
       description: `<p>Hearthstone Battle is based on one of Blizzard’s top grossing games, Hearthstone. It is a single or multiplayer experience that challenges the user(s) to correctly match 9 pairs of cards with limited chances. You are given the choice of choosing your deck based on every class available in Hearthstone: Mage, Paladin, etc. In single-player mode if you lose all of your health points, you lose the match and can restart; however, in multiplayer mode, you will be playing against each other with aims of taking down the opponent's life points.</p><p> I am the sole developer on this application, and in future patches will be including a backend allowing for an even more immersive experience.</p>`,
       links: ["https://github.com/stallenvp", "https://github.com/stallenvp"]
     },
