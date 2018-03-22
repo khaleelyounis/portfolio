@@ -75,11 +75,11 @@ $(document).ready(function () {
       description: `<p>Live Face Off allows friends and family to connect with one another via webcam and chat to enjoy some time together. The application features two modes of gameplay, with more to come in the future. The mission behind Live Face Off is to give just about anyone the ability to easily login and rekindle old bonds or make new ones. We wanted there to be more than one way of logging in, that way even your grandparents can join in on the fun. Our focus is to take this application to the next level by continuously creating new content for users to try out, and also give more incentives by implementing achievements and an online matchmaking system.</p><p>My contribution to Live Face Off was developing the backend using Node.js and constructing the database using MongoDB. I also helped out with routing some of the React components, and by creating the About page.</p>`,
       links: ["https://livefaceoff.com", "https://github.com/stallenvp"]
     },
-    hearthstoneBattle: {
-      title: 'Hearthstone Battle',
-      image: 'img/creative/portfolio/grid/hearthstone.jpg',
-      description: `<p>Hearthstone Battle is based on one of Blizzard’s top grossing games, Hearthstone. It is a single or multiplayer experience that challenges the user(s) to correctly match 9 pairs of cards with limited chances. You are given the choice of choosing your deck based on every class available in Hearthstone: Mage, Paladin, etc. In single-player mode if you lose all of your health points, you lose the match and can restart; however, in multiplayer mode, you will be playing against each other with aims of taking down the opponent's life points.</p><p> I am the sole developer on this application, and in future patches will be including a backend allowing for an even more immersive experience.</p>`,
-      links: ["https://github.com/stallenvp", "https://github.com/stallenvp"]
+    studentGradeTable: {
+      title: 'Student Grade Table',
+      image: 'img/creative/portfolio/grid/SGT.png',
+      description: `<p>Student Grade Table is a Content Management System for student courses and grades. It allows users to Create, Read, and Delete from the MySQL database through a PHP backend.</p>`,
+      links: ["https://sgt.khaleelyounis.com", "https://github.com/stallenvp/student-grade-table"]
     },
     beetsAndEats: {
       title: 'Beets & Eats',
@@ -105,13 +105,5 @@ $(document).ready(function () {
   }
   //portfolio Modal Click Handler
   $('.portfolio-wrapper').on('click', presentModalInformation);
-
-  // Vide - Video Background Settings
-  $('header.video').vide({
-    mp4: "mp4/camera.mp4",
-    poster: "img/agency/backgrounds/bg-mobile-fallback.jpg"
-  }, {
-      posterType: 'jpg'
-    });
 
 })(jQuery); // End of use strict
