@@ -73,7 +73,7 @@ $(document).ready(function () {
       title: 'Live Face Off',
       image: 'img/creative/portfolio/grid/livefaceoff.png',
       description: `<p>Live Face Off allows friends and family to connect with one another via webcam and chat to enjoy some time together. The application features two modes of gameplay, with more to come in the future. The mission behind Live Face Off is to give just about anyone the ability to easily login and rekindle old bonds or make new ones. We wanted there to be more than one way of logging in, that way even your grandparents can join in on the fun. Our focus is to take this application to the next level by continuously creating new content for users to try out, and also give more incentives by implementing achievements and an online matchmaking system.</p><p>My contribution to Live Face Off was developing the backend using Node.js and constructing the database using MongoDB. I also helped out with routing some of the React components, and by creating the About page.</p>`,
-      links: ["https://livefaceoff.com", "https://github.com/stallenvp"]
+      links: ["https://livefaceoff.com", "https://github.com/stallenvp/Live-Face-Off"]
     },
     studentGradeTable: {
       title: 'Student Grade Table',
