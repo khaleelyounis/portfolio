@@ -160,12 +160,14 @@
      max-width: 150px;
      max-height: 150px; }
    header.masthead .masthead-title {
+     text-shadow: 2px 2px 2px black;
      font-size: 4rem;
      line-height: 4rem;
      font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
      font-weight: 900;
      text-transform: uppercase; }
    header.masthead .masthead-subtitle {
+     text-shadow: 2px 2px 2px black;
      font-size: 1.5rem;
      line-height: 1.5rem; }
    header.masthead .scroll-down {
@@ -329,6 +331,10 @@
 }
 #contact{
   background-color: #ededed;
+}
+
+nav.navbar.navbar-expand-lg.fixed-top {
+  text-shadow: 2px 2px 2px black;
 }
 
 .portfolioLinks {
@@ -742,6 +748,10 @@ div.wow.skillsSectionItem {
   .form-control:focus {
     background-color: #ededed;
   }
+
+.list-inline {
+  text-shadow: 2px 2px 2px black;
+}
  
  .btn {
    font-weight: 900;
