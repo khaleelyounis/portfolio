@@ -85,7 +85,7 @@ $(document).ready(function () {
       title: 'Beets & Eats',
       image: 'img/creative/portfolio/grid/beetsandeats.png',
       description: `<p>Beets & Eats is an on the go event planner that combines restaurants, breweries, and local events for an easy night out. To use: simply input your location or use the geolocation button, choose an event you wish to go to, and then use the map to select a place to grab some food and drinks at.</p><p>My role during this 48-hour hackathon was to gather all the information used to populate the restaurants and breweries from yelp and format it in a way that could be used throughout the entire application. I also helped create the landing page, and put together a few pieces for the google map.`,
-      links: ["https://github.com/stallenvp", "https://github.com/stallenvp"]
+      links: ["https://beetsandeats.khaleelyounis.com", "https://github.com/stallenvp/beets-and-eats"]
     }
   }
 
