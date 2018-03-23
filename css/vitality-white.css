@@ -333,7 +333,7 @@
   background-color: #ededed;
 }
 
-nav.navbar.navbar-expand-lg.fixed-top {
+a.navbar-brand.js-scroll-trigger {
   text-shadow: 2px 2px 2px black;
 }
 
