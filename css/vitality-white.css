@@ -91,7 +91,7 @@
    #mainNav .navbar-toggler {
      padding: 15px;
      color: white;
-     font-size: 14px; }
+     font-size: 25px; }
      #mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
        color: #222;
        background-color: white; }
@@ -523,6 +523,20 @@ a.navbar-brand.js-scroll-trigger {
     } 
   }
 
+.resumeh4AboutMe {
+  font-size: 20px;
+  font-weight: 500;
+}
+.resumeLinkAboutMe {
+  color: black;
+  border: 1px solid black;
+  padding: 4px;
+}
+.resumeLinkAboutMe:hover {
+  text-decoration: none;
+  border-color: #1ad1c2;
+}
+
 /* Portrait */
 @media only screen 
 and (min-device-width : 375px) 
@@ -535,6 +549,15 @@ and (max-device-width : 667px) {
   }
   .skillsSectionItem {
     margin-left: 5%;
+  }
+  i.fa {
+    font-size: 31px;
+  }
+  i.fa.fa-bars {
+    font-size: 30px;
+  }
+  header.masthead {
+    padding-bottom: 230px;
   }
 }
 
@@ -751,6 +774,10 @@ div.wow.skillsSectionItem {
 
 .list-inline {
   text-shadow: 2px 2px 2px black;
+}
+
+ul li.list-inline-item {
+  margin-right: 10px!important; 
 }
  
  .btn {
